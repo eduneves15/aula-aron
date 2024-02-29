@@ -1,18 +1,39 @@
 //outro trabalho
 
-function login(email, senha){
-    if (email === "eduardo@gmail.com" && senha === "edulindo"){
-        return "Status 200 (ok)"
+//function login(email, senha){
+  //  if (email === "email@gmail.com" && senha === "familia"){
+        //return "Status 200 (ok)"
+   // }else{
+    //    return "Status 400 (Error)"
+   // }
+//}
+
+//const email = prompt();
+//const senha = prompt();
+
+//const response = login(email, senha);
+
+//console.log(response);
+
+//Email | Senha | Confirmar Senha | Data de Nascimento | Número de Telefone
+
+function cadastro(email, senha, Confirmar_senha, data_nascimento, numero_telefone){
+    if (email === "eduardo@gmail.com" && senha === "edulindo" && Confirmar_senha === "edulindo" && data_nascimento === "22/02/2007" && numero_telefone === "45999246348"){
+        return "Status 200 (Tudo Certo)"
     }else{
-        return "Status 400 (Error)"
+        return "Status 400 (Erro)"
     }
+   
 }
+const email = prompt("Digite email:");
+const senha = prompt("Digite a senha:");
+const Confirmar_senha = prompt("Confirme a senha:");
+const data_nascimento = prompt("Data de Nascimento:");
+const numero_telefone = prompt("Número de Telefone");
 
-const email = prompt();
-const senha = prompt();
-
-const response = login(email, senha);
+const response = cadastro(email, senha, Confirmar_senha, data_nascimento, numero_telefone );
 
 console.log(response);
 
-//Email | Senha | Confirmar Senha | Data de Nascimento | Número de Telefone
+
+   
