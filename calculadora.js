@@ -1,37 +1,38 @@
 function somar(){
-    const num1 = 10;
-    const num2 = 20;
+    const num1 = parseInt(prompt("De um numero : "));
+    const num2 = parseInt(prompt("De outro numero: "));
 
-    const Totalsoma = num1 + num2;
-
-    console.log(`A soma ${num1} + ${num2} =${Totalsoma}`);
+    const totalsoma = num1 + num2;
+    console.log(`A soma ${num1} + ${num2} = ${totalsoma}`);
 }
 
 function sub(){
-    const num1 = 10;
-    const num2 = 20;
+    const num1 = parseInt(prompt("De um numero : "));
+    const num2 = parseInt(prompt("De outro numero: "));
 
-    const Totalsub = num1 - num2;
 
-    console.log(`A subtração ${num1} - ${num2} =${Totalsub}`);
+    const totalsub = num1 - num2;
+    console.log(`A subtração ${num1} - ${num2} = ${totalsub}`);
 }
 
 function mul(){
-    const num1 = 10;
-    const num2 = 20;
+    const num1 = parseInt(prompt("De um numero: "));
+    const num2 = parseInt(prompt("De outro numero: "));
 
-    const Totalmul = num1 * num2;
 
-    console.log(`A multiplicação ${num1} * ${num2} =${Totalmul}`);
+    const totalmul = num1 * num2;
+    console.log (`A multiplição ${num1} x ${num2} = ${totalmul}`);
+    
 }
 
 function div(){
-    const num1 = 10;
-    const num2 = 20;
+    const num1 = parseInt(prompt("De um numero: "));
+    const num2 = parseInt(prompt("De outro numero: "));
 
-    const Totaldiv = num1 / num2;
 
-    console.log(`A divisão ${num1} / ${num2} =${Totaldiv}`);
+    const totaldiv = num1 / num2;
+    console.log (`A divisão ${num1} / ${num2} = ${totaldiv}`);
+    
 }
 
 somar();
@@ -39,20 +40,14 @@ sub();
 mul();
 div();
 
+function somar2(num1, num2){
+    const total = num1 + num2;
 
-
-function somar2(num1,num2){
-    const Total = num1 + num2;
-
-    console.log(`A soma ${num1} + ${num2} = ${Totalsoma}`);
+    console.log(`A soma ${num1} + ${num2} = ${total}`);
 }
 
 function somar3(){
     const num1 = 10;
     const num2 = 20;
-
-    const Total = num1 + num2;
-
-    console.log(`A soma ${num1} + ${num2} = ${Totalsoma}`);
 }
 
